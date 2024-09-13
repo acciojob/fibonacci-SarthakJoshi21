@@ -3,11 +3,11 @@ function fibonacci(num) {
 	let a=0;
 	let b=1;
 	let c;
-	if(num==0){
-		return a;
-	}
 	if(num==1){
-		return b;
+		return 0;
+	}
+	if(num==2){
+		return 1;
 	}
 	for(let i=3; i<num; i++){
 		c=a+b;
